@@ -1,0 +1,7 @@
+room,Entrance,0,none
+room,Middle,5,none
+room,Exit,1,Escape
+room,Cheese Room,1,Escape
+connection,Entrance,Middle
+connection,Exit,Middle
+objective,Escape,none

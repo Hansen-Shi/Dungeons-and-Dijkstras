@@ -1,0 +1,35 @@
+room,Statue Room,0,none
+room,Enemy Bats,2,Get Key
+room,Enemy Skeletons,2,none
+room,More Skeletons,2,none
+room,First Juncture,4,none
+room,Compass Room,6,none
+room,Bat Swarm,6,Use Key
+room,Evil Jellies,1,none
+room,Second Juncture,2,none
+room,Twisty Path,7,none
+room,Boomerang Baddies,9,none
+room,Guardian Traps,7,Get Bow
+room,Boomerang Bozos,2,Get Boomerang
+room,Wallmasters,12,none
+room,Hydra,20,Get Triforce
+connection,Statue Room,Enemy Bats
+connection,Statue Room,Enemy Skeletons
+connection,Statue Room,More Skeletons
+connection,First Juncture,More Skeletons
+connection,First Juncture,Compass Room
+connection,First Juncture,Bat Swarm
+connection,First Juncture,Second Juncture
+connection,Bat Swarm,Evil Jellies
+connection,Second Juncture,Evil Jellies
+connection,Second Juncture,Twisty Path
+connection,Second Juncture,Boomerang Bozos
+connection,Twisty Path,Boomerang Baddies
+connection,Boomerang Baddies,Guardian Traps
+connection,Wallmasters,Boomerang Bozos
+connection,Wallmasters,Hydra
+objective,Get Key,none
+objective,Use Key,Get Key
+objective,Get Bow,Use Key
+objective,Get Boomerang,Use Key
+objective,Get Triforce,Get Bow+Get Boomerang

@@ -1,0 +1,9 @@
+Rooms: 6
+Connections: 4
+Objectives: 1
+Density: 0.26
+Dead-ends: 4
+Hubs: 0
+Max challenge: 2
+Median challenge: 1.0
+Valid: False

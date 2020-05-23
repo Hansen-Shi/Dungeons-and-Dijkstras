@@ -1,0 +1,56 @@
+Write your answers for the following problems inside this text file.
+Please be sure to write in coherent, complete thoughts.
+If we cannot understand your answer, we cannot give you points.
+Use your own words - don't just copy/paste some website.
+
+7. Determine Vertex Property
+- We are looking at the degree of the vertices  
+- In question 5 we are determining if there are any leaf/end vertices, vertices with a degree of 1
+- In question 6 we are determining if there are any vertices with a degree of 3 or more
+
+10. Visualize Dungeon
+- http://bridges-cs.herokuapp.com/assignments/110/NullNoQuotes
+
+12. Graph Algorithm Validity
+- we're testing to see if a given graph is connected. Since it is an undirected graph iterating through the hashmap I have
+(which is more or less an adjacency list) checking for if rooms are missing isn't sufficient. I chose to try and 
+perform a DFS on the graph but the implementation ended up being more similar to a BFS that just uses a stack instead of a queue.
+But, since they both have the same runtime and they both work for checking connectedness it didn't really matter in the end. 
+If the number of rooms visited is equal to the number of rooms (all rooms were visited) then the graph is connected/valid 
+since all rooms can be reached given any starting room. Runtime is O(m + n) where m is the number of connections/edges
+and n is the number of rooms.
+
+13. Dungeon Difficulty
+- http://bridges-cs.herokuapp.com/assignments/113/NullNoQuotes
+
+15. Checking Adjacent Difficulties
+ - This problem is essentially trying to keep track of and process all of the rooms connected to any given room. We have to
+ traverse through the entire dungeon to make sure it is balanced. In that case a BFS fits the bill pretty well. I just modded
+ my original BFS function slightly so that it could effectively keep track of the balance of the dungeon. Runtime would be the same, O(m + n).
+17. Visualize Objectives
+- http://bridges-cs.herokuapp.com/assignments/117/NullNoQuotes
+
+19. Visualize Routes
+- http://bridges-cs.herokuapp.com/assignments/119/NullNoQuotes
+
+20. Calculate Runtime
+- My algorithm loops through all the rooms in the helper function, and loops through all the connections to that room as well
+so that is at least O(R + C) and it's repeated for each objective so then: O(O(R + C)). Then actually printing out the result
+is it's own mess.
+
+22. Dungeon MST
+- A minimum spanning tree connects all the vertices ignoring paths that would cause a cycle to exist.
+The vertices will also be connected in such a way that results in the lowest possible total edge weight.
+So in terms of our dungeon where edge weight is difficulty of the next room, a minimum spanning tree would
+highlight the easiest path(s) to any point in the dungeon.
+
+23. Kruskal's Algorithm
+
+25. Visualize Clusters
+
+
+
+
+
+
+    	

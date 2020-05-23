@@ -1,0 +1,11 @@
+room,Entrance,0,none
+room,North,2,Visit North
+room,South,1,Visit South
+room,Exit,2,Escape
+connection,Entrance,North
+connection,Entrance,South
+connection,Exit,North
+connection,Exit,South
+objective,Escape,Visit South+Visit North
+objective,Visit South,none
+objective,Visit North,none

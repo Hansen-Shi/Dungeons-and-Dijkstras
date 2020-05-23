@@ -1,0 +1,20 @@
+Rooms: 8
+Connections: 7
+Objectives: 6
+Density: 0.25
+Dead-ends: 2
+Hubs: 0
+Max challenge: 6
+Median challenge: 3.0
+Valid: True
+Balanced: False
+Order: A,B,C,D,E,F
+Route for A: R1->R2->R3
+Route for B: R3->R4->R5->R6->R7
+Route for C: R7->R6->R5->R4
+Route for D: R4->R5->R6
+Route for E: R6->R5
+Route for F: R5->R6->R7->R8
+Cluster 1: R1,R2,R3,R4,R5
+Cluster 2: R6
+Cluster 3: R7,R8

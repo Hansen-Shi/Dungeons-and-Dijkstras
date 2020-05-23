@@ -1,0 +1,19 @@
+Rooms: 15
+Connections: 15
+Objectives: 5
+Density: 0.14
+Dead-ends: 5
+Hubs: 3
+Max challenge: 20
+Median challenge: 4
+Valid: True
+Balanced: False
+Order: Get Key,Use Key,Get Boomerang,Get Bow,Get Triforce
+Route for Get Key: Statue Room->Enemy Bats
+Route for Use Key: Enemy Bats->Statue Room->More Skeletons->First Juncture->Bat Swarm
+Route for Get Boomerang: Bat Swarm->Evil Jellies->Second Juncture->Boomerang Bozos
+Route for Get Bow: Boomerang Bozos->Second Juncture->Twisty Path->Boomerang Baddies->Guardian Traps
+Route for Get Triforce: Guardian Traps->Boomerang Baddies->Twisty Path->Second Juncture->Boomerang Bozos->Wallmasters->Hydra
+Cluster 1: Bat Swarm,Boomerang Bozos,Compass Room,Enemy Bats,Enemy Skeletons,Evil Jellies,First Juncture,More Skeletons,Second Juncture,Statue Room,Twisty Path
+Cluster 2: Boomerang Baddies,Guardian Traps
+Cluster 3: Hydra,Wallmasters

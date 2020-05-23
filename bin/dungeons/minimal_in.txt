@@ -1,0 +1,4 @@
+room,Entrance,0,none
+room,Exit,1,Escape
+connection,Entrance,Exit
+objective,Escape,none

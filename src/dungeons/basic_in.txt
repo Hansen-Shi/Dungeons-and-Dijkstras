@@ -1,0 +1,24 @@
+room,Entrance,0,none
+room,Hub Room,3,none
+room,Long Hallway,5,none
+room,Secret Passage,1,none
+room,Narrow Passage,3,none
+room,Treasure Room,4,Loot the Treasure
+room,Key Room,5,Get the key
+room,Antechamber,1,none
+room,Throne Room,9,Fight Dragon
+room,Exit,0,Escape
+connection,Entrance,Long Hallway
+connection,Entrance,Secret Passage
+connection,Hub Room,Long Hallway
+connection,Hub Room,Secret Passage
+connection,Hub Room,Narrow Passage
+connection,Hub Room,Antechamber
+connection,Narrow Passage,Treasure Room
+connection,Narrow Passage,Key Room
+connection,Antechamber,Throne Room
+connection,Throne Room,Exit
+objective,Get the key,none
+objective,Fight Dragon,Get the key
+objective,Loot the Treasure,none
+objective,Escape,Loot the Treasure+Fight Dragon

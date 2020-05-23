@@ -1,0 +1,13 @@
+room,Entrance,3,none
+room,Northwest,1,none
+room,Northeast,5,none
+room,Southwest,2,none
+room,Southeast,3,none
+room,Exit,2,Escape
+connection,Entrance,Northwest
+connection,Entrance,Southwest
+connection,Northwest,Northeast
+connection,Southwest,Southeast
+connection,Exit,Southeast
+connection,Exit,Northeast
+objective,Escape,none

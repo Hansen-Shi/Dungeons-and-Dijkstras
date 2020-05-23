@@ -1,0 +1,18 @@
+Rooms: 9
+Connections: 8
+Objectives: 4
+Density: 0.22
+Dead-ends: 8
+Hubs: 1
+Max challenge: 5
+Median challenge: 2
+Valid: True
+Balanced: False
+Order: A,B,C,D
+Route for A: Center->Topleft
+Route for B: Topleft->Center->Topright
+Route for C: Topright->Center->Bottomleft
+Route for D: Bottomleft->Center->Bottom
+Cluster 1: Bottom
+Cluster 2: Bottomleft,Bottomright,Center,Left,Right,Topleft,Topright
+Cluster 3: Top

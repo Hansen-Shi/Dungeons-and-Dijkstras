@@ -1,0 +1,16 @@
+Rooms: 4
+Connections: 4
+Objectives: 2
+Density: 0.66
+Dead-ends: 0
+Hubs: 0
+Max challenge: 2
+Median challenge: 1.5
+Valid: True
+Balanced: True
+Order: Visit South,Escape
+Route for Visit South: Entrance->South
+Route for Escape: South->Exit
+Cluster 1: Entrance,South
+Cluster 2: Exit
+Cluster 3: North

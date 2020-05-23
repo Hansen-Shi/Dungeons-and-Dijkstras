@@ -1,0 +1,14 @@
+Rooms: 2
+Connections: 1
+Objectives: 1
+Density: 1.0
+Dead-ends: 2
+Hubs: 0
+Max challenge: 1
+Median challenge: 0.5
+Valid: True
+Balanced: True
+Order: Escape
+Route for Escape: Entrance->Exit
+Cluster 1: Entrance
+Cluster 2: Exit

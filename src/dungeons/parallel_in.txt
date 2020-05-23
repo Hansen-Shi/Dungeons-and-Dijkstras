@@ -1,0 +1,11 @@
+room,Entrance 1,0,none
+room,Middle 1,1,none
+room,Exit 1,2,none
+room,Entrance 2,0,none
+room,Middle 2,1,none
+room,Exit 2,2,Escape
+connection,Entrance 1,Middle 1
+connection,Entrance 2,Middle 2
+connection,Middle 1,Exit 1
+connection,Middle 2,Exit 2
+objective,Escape,none

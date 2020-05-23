@@ -1,0 +1,15 @@
+Rooms: 6
+Connections: 6
+Objectives: 1
+Density: 0.4
+Dead-ends: 0
+Hubs: 0
+Max challenge: 5
+Median challenge: 2.5
+Valid: True
+Balanced: True
+Order: Escape
+Route for Escape: Entrance->Southwest->Southeast->Exit
+Cluster 1: Entrance,Northeast,Northwest,Southwest
+Cluster 2: Exit
+Cluster 3: Southeast

@@ -1,0 +1,18 @@
+Rooms: 10
+Connections: 10
+Objectives: 4
+Density: 0.22
+Dead-ends: 3
+Hubs: 2
+Max challenge: 9
+Median challenge: 3.0
+Valid: True
+Balanced: False
+Order: Get the key,Fight Dragon,Loot the Treasure,Escape
+Route for Get the key: Entrance->Secret Passage->Hub Room->Narrow Passage->Key Room
+Route for Fight Dragon: Key Room->Narrow Passage->Hub Room->Antechamber->Throne Room
+Route for Loot the Treasure: Throne Room->Antechamber->Hub Room->Narrow Passage->Treasure Room
+Route for Escape: Treasure Room->Narrow Passage->Hub Room->Antechamber->Throne Room->Exit
+Cluster 1: Antechamber,Hub Room,Key Room,Long Hallway,Narrow Passage,Secret Passage,Treasure Room
+Cluster 2: Entrance
+Cluster 3: Exit,Throne Room
